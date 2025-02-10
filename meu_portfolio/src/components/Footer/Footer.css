@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #023059;
+    margin-top: -9px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    padding: 2.5rem 1rem;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.footer-copy p, .footer-copy address{
+    font-size: 1em;
+}
+
+.footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer a svg{
+    width: 1.5em;
+    height: 1.5em;
+}

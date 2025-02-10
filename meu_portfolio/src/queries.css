@@ -1,0 +1,65 @@
+@media screen and (max-width: 1320px) {
+    .project-grid {
+        gap: 1rem;
+    }
+
+    #greetings {
+        font-size: 4rem;
+      }
+
+}
+
+@media screen and (max-width:1200px) {
+    .profile-inner{
+        flex-direction: column-reverse;
+        gap: 0rem;
+        padding: 0rem;
+    }
+
+    .profile-text{
+        padding: 1rem;
+        grid-template-rows: auto 1fr;
+    }
+
+    #greetings {
+        max-height: calc(150px - 2rem);
+        width: 100%;
+      }
+
+    .profile-image {
+        margin-top: 0rem;
+        /* margin-bottom: -3rem; */
+    }
+
+    .profile-image picture img{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .project-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-text {
+        padding: 0rem;
+    }
+
+    .project-parragraph {
+        margin-bottom: 2.5rem;
+    }
+
+    .project-buttons {
+        padding: 0.5rem 0rem;
+    }
+}
+
