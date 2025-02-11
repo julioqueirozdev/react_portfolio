@@ -1,4 +1,5 @@
 import "./Footer.css";
+import profile from '../../json/profile.json'
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="footer-links">
-          <a href="https://github.com/julioqueirozdev" target="_blank">
+          <a href={profile.github} target="_blank" rel='noreferrer'>
             <svg
               class="w-[48px] h-[48px] text-gray-800 dark:text-white"
               aria-hidden="true"
@@ -27,7 +28,7 @@ export default function Footer() {
               />
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/juliocqaraujo/" target="_blank">
+          <a href="https://www.linkedin.com/in/juliocqaraujo/" target="_blank" rel="noreferrer">
             <svg
               class="w-[48px] h-[48px] text-gray-800 dark:text-white"
               aria-hidden="true"

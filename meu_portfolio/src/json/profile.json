@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Júlio Queiroz",
+        "avatar": "../src/images/profile.jpg",
+        "email":"jcqaraujo@gmail.com",
+        "github":"https://github.com/julioqueirozdev",
+        "linkedin": "https://www.linkedin.com/in/juliocqaraujo/",
+        "about": [
+            {
+                "description": "Eu transformo código em realidade no navegador!",
+                "lenguages": ["HTML", "Javascript", "CSS", "Git"],
+                "tools":["React", "Github", "Vs Code"]
+            }
+        ]
+    }
+]
