@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-copy">
           <p>
-            Entre em contato: <address>jcqaraujo@gmail.com</address>
+            Entre em contato: jcqaraujo@gmail.com
           </p>
         </div>
         <div className="footer-links">
