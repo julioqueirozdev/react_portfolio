@@ -1,3 +1,4 @@
+import avatar from '../../images/profile.jpg';
 import "./Header.css";
 import { profile } from "../../data/profile";
 
@@ -14,7 +15,7 @@ export default function Header() {
         </div>
         <div className="profile-image">
           <picture>
-            <img width="500" height="500" src= './src/images/profile.jpg' alt={person.name} />
+            <img width="500" height="500" src= {avatar} alt={person.name} />
           </picture>
         </div>
           </>
