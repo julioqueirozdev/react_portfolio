@@ -3,7 +3,7 @@ export const profile = [
     {
         id: 0,
         name: "Júlio Queiroz",
-        avatar: "../images/profile.jpg",
+        avatar: "https://photos.app.goo.gl/dgoUcS9ceYEkeeNcA",
         greetings: "Meu nome é Júlio Queiroz e eu sou um desenvolvedor front-end!",
         email:"jcqaraujo@gmail.com",
         github:"https://github.com/julioqueirozdev",

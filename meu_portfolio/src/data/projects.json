@@ -2,7 +2,7 @@
     {
         "id":"0",
         "name": "Projeto Android",
-        "backgorund":"",
+        "backgorund":"oz9GomX.png",
         "description": "O projeto Android é uma página estática, feita inteiramente com HTML e CSS que conta a história da criação do mascote do Android. O projeto foi desenvolvido no curso de HTML e CSS do Curso em Vídeo.",
         "url": "https://julioqueirozdev.github.io/projeto-android/",
         "github":"https://github.com/julioqueirozdev/projeto-android"
@@ -10,7 +10,7 @@
     {
         "id":"1",
         "name": "Projeto Cordel",
-        "backgorund":"",
+        "backgorund":"g4SWmsv.png",
         "description": "O projeto Cordel é uma página estática criada com HTML e CSS que exercita conceitos de configuração de imagens de fundo e apresenta de forma simples e fluida o poema Cordel Moderno de Milton Duarte. O projeto foi desenvolvido como desafio no curso de HTML e CSS do Curso em Vídeo.",
         "url": "https://julioqueirozdev.github.io/projeto-cordel/",
         "github":"https://github.com/julioqueirozdev/projeto-cordel"
@@ -18,7 +18,7 @@
     {
         "id":"2",
         "name": "Calculadora de IMC",
-        "backgorund":"",
+        "backgorund":"ZGPdm0A.png",
         "description": "A calculadora de IMC é um projeto desenvolvido utilizando HTML e CSS e arquitetura MVC para organizar a estrutura de Javascript que permite que a aplicação armazene dados dos usuários localmente no navegador, calcule e exiba seus dados e IMC em tela. É um projeto focado em entender e aplicar Javascript Orientado a Objetos idelaizado pelo Professor Edson Maia.",
         "url": "https://julioqueirozdev.github.io/projeto-imc/",
         "github":"https://github.com/julioqueirozdev/projeto-imc"
@@ -26,7 +26,7 @@
     {
         "id":"3",
         "name": "Projeto Login",
-        "backgorund":"",
+        "backgorund":"esAZuQN.png",
         "description": "O projeto Login é uma página de login responsiva, criada com HTML e CSS que foca em aplicar conceitos de criação de formulários e métodos de layout flexbox. O projeto foi feito como desafio no curso de HTML e CSS do Curso em Vídeo.",
         "url": "https://julioqueirozdev.github.io/projeto-login/",
         "github":"https://github.com/julioqueirozdev/projeto-login"
@@ -34,7 +34,7 @@
     {
         "id":"4",
         "name": "Jogo Detona Ralph",
-        "backgorund":"",
+        "backgorund":"ZcRsTpq.png",
         "description": "O jogo Detona Ralph é baseado no filme de mesmo nome e foi criado utilizando HTML, CSS e Javascript. Nele, precisamos acertar o Ralph nas janelas com cliques do mouse dentro do limite de tempo e sem perder as vidas disponíveis. É um projeto desenvolvido no Bootcamp para Devs Frontend da DIO.",
         "url": "https://julioqueirozdev.github.io/projeto-detona-ralph/",
         "github":"https://github.com/julioqueirozdev/projeto-detona-ralph"
@@ -42,7 +42,7 @@
     {
         "id":"5",
         "name": "Jogo da Memória",
-        "backgorund":"",
+        "backgorund":"XTFWKE7.png",
         "description": "O jogo da Memória, criado com HTML, CSS e Javascript, simula o funcionamento de um jogo da memória da vida real onde precisamos combinar pares de emoji idênticos. É um projeto desenvolvido no Bootcamp para Devs Frontend da DIO.",
         "url": "https://julioqueirozdev.github.io/jogo-da-memoria/",
         "github":"https://github.com/julioqueirozdev/jogo-da-memoria"
@@ -50,7 +50,7 @@
     {
         "id":"6",
         "name": "Pokedex",
-        "backgorund":"",
+        "backgorund":"YwTgKgO.png",
         "description": "A Pokedex é um projeto criado em HTML, CSS e Javascript que exibe pequenos cards com informações dos Pokémons da primeira geração do joguinho. Neste projeto, são exercitados conceitos de consumo de API REST. É um projeto desenvolvido no Bootcamp para Devs Frontend da DIO.",
         "url": "https://julioqueirozdev.github.io/pokedex/",
         "github":"https://github.com/julioqueirozdev/pokedex"
@@ -58,7 +58,7 @@
     {
         "id":"7",
         "name": "Jogo Yu-Gi-Oh!",
-        "backgorund":"",
+        "backgorund":"KkXAUwV.png",
         "description": "O jogo Yu-Gi-Oh é um jogo no estilo jo-ken-po, criado com HTML, CSS e Javascript. Nele, o jogador precisa escolher uma carta em sua mão, que tem valores de pedra, papel e teroura, enquanto o computador faz o mesmo do seu lado e o vencedor é decidido e a potuação computada. É um projeto desenvolvido no Bootcamp para Devs Frontend da DIO.",
         "url": "https://julioqueirozdev.github.io/yu-gi-oh/",
         "github":"https://github.com/julioqueirozdev/yu-gi-oh"
@@ -66,7 +66,7 @@
     {
         "id":"8",
         "name": "Piano Virtual",
-        "backgorund":"",
+        "backgorund":"YRNOmTj.png",
         "description": "O simulador de piano virtual, criado com HTML, CSS e Javascript, funciona com uma versão simples de um piano que pode ser tocado tanto com o mouse quanto com as keys to teclado correspondentes às teclas do piano. É um projeto desenvolvido no Bootcamp para Devs Frontend da DIO.",
         "url": "https://julioqueirozdev.github.io/projeto-piano/",
         "github":"https://github.com/julioqueirozdev/projeto-piano"

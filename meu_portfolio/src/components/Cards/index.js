@@ -2,7 +2,7 @@ import "./Cards.css";
 
 
 
-export default function Cards({name, description, url, github}) {
+export default function Cards({name, description, url, github, background}) {
   return (
     <>
       <div className="project">
@@ -10,9 +10,10 @@ export default function Cards({name, description, url, github}) {
         <div
           className="project-image"
           style={{
-            backgroundColor: "black",
+            backgroundImage: `url('https://imgur.com/${background}')`,
           }}
-        ></div>
+        >
+        </div>
         <div className="project-text">
           <h2>{name}</h2>
           <p className="project-parragraph">{description}</p>

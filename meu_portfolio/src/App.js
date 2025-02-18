@@ -17,7 +17,7 @@ function App() {
       <ProjectGrid>
         {projects.map(project => {
         return(
-          <Cards key={project.id} name={project.name} description={project.description} url={project.url} github={project.github}/>
+          <Cards key={project.id} name={project.name} description={project.description} url={project.url} github={project.github} background={project.backgorund}/>
         );
       })}
       </ProjectGrid>
