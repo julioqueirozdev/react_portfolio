@@ -1,20 +1,19 @@
 import "./Footer.css";
-import { profile } from "../../data/profile";
 
-export default function Footer() {
+export default function Footer({profile}) {
+  const {github, linkedin, email } = profile;
+
+
   return (
     <div className="footer">
       <div className="footer-inner">
         <div className="footer-copy">
           <p>
-            Entre em contato: jcqaraujo@gmail.com
+            Entre em contato: {email}
           </p>
         </div>
         <div className="footer-links">
-          {profile.map((person) => {
-            return (
-              <>
-                <a href={person.github} target="_blank" rel="noreferrer">
+                <a href={github} target="_blank" rel="noreferrer">
                   <svg
                     class="w-[48px] h-[48px] text-gray-800 dark:text-white"
                     aria-hidden="true"
@@ -31,7 +30,7 @@ export default function Footer() {
                     />
                   </svg>
                 </a>
-                <a href={person.linkedin} target="_blank" rel="noreferrer">
+                <a href={linkedin} target="_blank" rel="noreferrer">
                   <svg
                     class="w-[48px] h-[48px] text-gray-800 dark:text-white"
                     aria-hidden="true"
@@ -49,9 +48,6 @@ export default function Footer() {
                     <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
                   </svg>
                 </a>
-              </>
-            );
-          })}
         </div>
       </div>
     </div>

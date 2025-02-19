@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-.skills-content spam, .projects-introduction-content spam{
+.skills-content span, .projects-introduction-content span{
     display: inline-block;
     background-color: #D98032;
     width: 50px;

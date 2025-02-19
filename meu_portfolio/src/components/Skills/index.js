@@ -7,7 +7,7 @@ export default function Skills({profile}) {
   return (
     <div className="skills">
       <div className="skills-content">
-        <spam></spam>
+        <span></span>
         <h2>Sobre</h2>
         <p className="dev-description">
           {description}

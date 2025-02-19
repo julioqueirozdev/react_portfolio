@@ -21,7 +21,7 @@ function App() {
         );
       })}
       </ProjectGrid>
-      <Footer/>
+      <Footer profile={profile[0]}/>
     </div>
   );
 }
