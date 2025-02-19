@@ -6,13 +6,13 @@ import Skills from "./components/Skills";
 import './queries.css';
 import projects from './data/projects.json'
 import ProjectGrid from "./components/ProjectGrid";
-
+import { profile } from "./data/profile";
 
 function App() {
   return (
     <div className="App">
-      <Header/> 
-      <Skills/>
+      <Header profile={profile[0]}/> 
+      <Skills profile={profile[0]}/>
       <Project/>
       <ProjectGrid>
         {projects.map(project => {
