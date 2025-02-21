@@ -10,10 +10,32 @@
 }
 
 @media screen and (min-width: 1320px) {
+    
+    h1#greetings{
+        font-size: 3rem;
+    }
+
+    .profile-text p{
+        font-size: 1.5rem;
+    }
 
     .project-grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+
+    .about-skills{
+        font-size: 2.5rem;
+    }
+
+    .dev-languages, .dev-tools{
+        font-size: 1.8rem;
+    }
+
+    .dev-description, .dev-languages-list, .dev-tools-list{
+        font-size: 1.2rem;
+    }
+
     
 }
 

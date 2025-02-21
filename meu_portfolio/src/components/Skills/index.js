@@ -8,13 +8,13 @@ export default function Skills({profile}) {
     <div className="skills">
       <div className="skills-content">
         <span></span>
-        <h2>Sobre</h2>
+        <h2 className="about-skills">Sobre</h2>
         <p className="dev-description">
           {description}
         </p>
-        <p className="dev-languages">Minhas Linguagens:</p>
+        <h3 className="dev-languages">Minhas Linguagens</h3>
         <p className="dev-languages-list">{lenguages.join(', ')}</p>
-        <p className="dev-tools">Dev Tools:</p>
+        <h3 className="dev-tools">Dev Tools</h3>
         <ul className="dev-tools-list">
           {tools.map((tool, index) => (
             <li key={index}>{tool}</li>
